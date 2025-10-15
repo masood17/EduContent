@@ -56,6 +56,7 @@ export async function generateContent(formData) {
     });
 
       const generatedText = response.text;
+       console.log(generatedText)
 
     await new Promise(resolve => setTimeout(resolve, 1500));
     return {
@@ -84,6 +85,8 @@ export async function generateContent(formData) {
       // To generate real content, please connect the Gemini API and update the 
       // generate.js file with your implementation.
       // `
+     
+      
     };
   } catch (error) {
     console.error('Error generating content:', error);
