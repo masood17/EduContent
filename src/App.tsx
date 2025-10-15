@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContentGenerator from './app/components/ContentGenerator';
+import ContentGenerator from './components/ContentGenerator';
 export function App() {
   return <div className="min-h-screen bg-gray-50">
       <header className="bg-indigo-600 shadow-md">
