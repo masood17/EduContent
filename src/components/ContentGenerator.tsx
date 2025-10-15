@@ -14,6 +14,10 @@ const ContentGenerator = () => {
     objectives: '',
     customPrompt: ''
   });
+
+// console.log();
+
+
   const [generatedContent, setGeneratedContent] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
